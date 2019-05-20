@@ -1,0 +1,6 @@
+add_executable(dm01_define1 dm01_define1.c)
+add_executable(dm02_define2 dm02_define2.c)
+add_executable(dm03_ifndef dm03_ifndef/main.c dm03_ifndef/fun.c)
+add_executable(dm04_condition_compile dm04_condition_compile.c)
+add_executable(dm05_previous_define dm05_previous_define.c)
+add_subdirectory(dm06_library1)

@@ -1,0 +1,12 @@
+
+add_executable(dm01_c_file_struct dm01_c_file_struct/main.c dm01_c_file_struct/sub_func.c)
+target_link_libraries(dm01_c_file_struct m)
+add_executable(dm02_data_type dm02_data_type.c)
+add_executable(dm03_data_operation_auto dm03_data_operation_auto.c)
+add_executable(dm04_data_operation_force dm04_data_operation_force.c)
+add_executable(dm05_bit dm05_bit.c)
+add_executable(dm06_for dm06_for.c)
+add_executable(dm07_switch dm07_switch.c)
+add_executable(dm08_water_num dm08_water_num.c)
+add_executable(dm09_bit dm09_bit.c)
+add_executable(dm10_bubblesort dm10_bubblesort.c)

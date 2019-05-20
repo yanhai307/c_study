@@ -1,0 +1,16 @@
+add_executable(dm01_array1 dm01_array1.c)
+add_executable(dm02_array2 dm02_array2.c)
+add_executable(dm03_array_char dm03_array_char.c)
+add_executable(dm04_function1 dm04_function1.c)
+add_executable(dm05_function2 dm05_function2.c)
+add_executable(dm06_function3 dm06_function3.c)
+add_executable(dm07_function4 dm07_function4/main.c dm07_function4/func.c)
+add_executable(dm08_static_variable dm08_static_variable.c)
+add_executable(dm09_var_static_extern dm09_var_static_extern/main.c
+        dm09_var_static_extern/fun1.c
+        dm09_var_static_extern/fun2.c)
+add_executable(dm10_days dm10_days.c)
+add_executable(dm11_tax_income dm11_tax_income.c)
+add_executable(dm12_define dm12_define.c)
+add_executable(dm13_letter_game dm13_letter_game.c)
+add_executable(dm14_show_human_number dm14_show_human_number.c)
