@@ -1,0 +1,7 @@
+add_executable(dm01_fgetc dm01_fgetc.c)
+add_executable(dm02_fgets_fputs dm02_fgets_fputs.c)
+add_executable(dm03_fread_fwrite dm03_fread_fwrite.c)
+add_executable(dm04_fprintf_fscanf dm04_fprintf_fscanf.c)
+add_executable(dm05_fseek dm05_fseek.c)
+add_executable(dm06_feof dm06_feof.c)
+add_executable(dm07_ferror dm07_ferror.c)
