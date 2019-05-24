@@ -8,7 +8,7 @@ int main(void)
 {
     FILE *fp;
     char ch;
-    const char *tmpfile = "test.txt";
+    const char *tmpfile = "/tmp/test.txt";
 
     fp = fopen(tmpfile, "r+");
     if (fp == NULL) {

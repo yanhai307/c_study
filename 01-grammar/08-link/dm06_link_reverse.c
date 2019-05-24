@@ -49,6 +49,10 @@ STU *reverse(STU *head)
 {
     STU *pf, *pb, *r;
     pf = head;
+
+    if (!head || !head->next)
+        return head;
+
     pb = pf->next;
 
     while (pb != NULL) {
